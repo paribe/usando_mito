@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "usando-mito"
+version = "0.1.0"
+description = ""
+authors = ["Paulo Ribeiro <paribe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.1.1"
+mitosheet = "^0.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
